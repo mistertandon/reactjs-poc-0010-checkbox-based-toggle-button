@@ -1,0 +1,38 @@
+.radio-button--container {
+  position: relative;
+  $scale: 80px;
+
+  .box--container {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: $scale;
+    height: $scale/2;
+    border-radius: $scale/2;
+    background-color: #c7c7c7;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  .ball--container {
+    width: $scale/2;
+    height: $scale/2;
+    border-radius: $scale/4;
+    background-color: red;
+
+    transition: all 1s ease;
+  }
+
+  .toggle-checkbox {
+    width: 100%;
+    height: 100%;
+
+    opacity: 0%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
