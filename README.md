@@ -5,4 +5,4 @@
 
 `$ npm run dev`
 
-Documentation for react-ionicon 
+Repository is hosted on Netlify. Reference [URL](https://joyful-nasturtium-6d0e9c.netlify.app/)
