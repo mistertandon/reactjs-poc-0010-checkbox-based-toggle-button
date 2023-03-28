@@ -1,6 +1,7 @@
 import { useMemo, useRef, useState } from "react";
 import "./RadioButton.scss";
 import { TOGGLE_STATUS_ON, TOGGLE_STATUS_OFF } from "./../../utils/constants";
+import { SunnyOutline, Moon } from "react-ionicons";
 
 const RadioButton = () => {
   const checkboxCheckedRef = useRef(false);
@@ -28,6 +29,24 @@ const RadioButton = () => {
   return (
     <section className="radio-button--container">
       <div className="box--container">
+        <div className="light-dark__icon--container">
+          <SunnyOutline
+            color={"#00000"}
+            className={"icon__sunny--parent"}
+            cssClasses={"icon__sunny"}
+            title={"Light"}
+            height="100%"
+            width="100%"
+          />
+          <Moon
+            color={"#00000"}
+            className={"icon__moon--parent"}
+            cssClasses={"icon__moon"}
+            title={"Moon"}
+            height="100%"
+            width="100%"
+          />
+        </div>
         <div
           id="rb-ball--container"
           className="ball--container"

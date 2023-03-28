@@ -1,7 +1,8 @@
 #### SCSS, SASS configuration
 <br/>
 
-`$ npm install --save-dev scss sass`
+`$ npm install --save-dev scss sass react-ionicons`
+`$ npm install --save react-ionicons`
 
 `$ npm run dev`
 
